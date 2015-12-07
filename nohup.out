@@ -1,26 +1,0 @@
-/home/pi/Lorenzo/Telegram/start_telegram.sh: 2: /home/pi/Lorenzo/Telegram/start_telegram.sh: =/home/pi/.telegram-cli: not found
-Telegram-cli version 1.3.3, Copyright (C) 2013-2015 Vitaly Valtman
-Telegram-cli comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
-This is free software, and you are welcome to redistribute it
-under certain conditions; type `show_license' for details.
-Telegram-cli uses libtgl version 2.0.3
-Telegram-cli includes software developed by the OpenSSL Project
-for use in the OpenSSL Toolkit. (http://www.openssl.org/)
-Telegram-cli uses libpython version 2.7.3
-I: config dir=[/home/pi/.telegram-cli]
-> [warn] Epoll ADD(1) on fd 0 failed.  Old events were 0; read change was 1 (add); write change was 0 (none): Operation not permitted
-[K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K[33;1mUser [0;31m[1;31mLorenzo Rossi[0;31m[33;1m online (was online [2015/12/07 22:21:27])
-[0m> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K[34;1m[22:16] [0m [0;31m[1;31mLorenzo Rossi[0;31m[0m[34;1m >>> Train[0m
-> [K> [K> [K> [K[32;1m[22:16] [0m [0;31m[1;31mLorenzo Rossi[0;31m[0m[32;1m <<< Northbound:
-  Malahide: 4m
-  Howth: 20m
-  Malahide: 34m
-  Howth: 45m
-  Howth: 60m
-Southbound:
-  Bray: 1m
-  Greystones: 31m
-  Greystones: 46m[0m
-> [K> [K[37;1m *** lua: attempt to call a nil value
-[0m> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K[33;1mUser [0;31m[1;31mLorenzo Rossi[0;31m[33;1m offline (was online [2015/12/07 22:17:04])
-[0m> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> [K> 
