@@ -3,7 +3,7 @@ function on_msg_receive (msg)
           return
       end
       if (string.lower(msg.text) == 'train') then
-         send_text (msg.from.print_name, '/home/pi/Lorenzo/IrishRail/formatted.txt', ok_cb, false)
+         send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/IrishRail/formatted.txt', ok_cb, false)
       end
   end
    
