@@ -2,10 +2,11 @@ function on_msg_receive (msg)
       if msg.out then
           return
       end
-      --If the keyword is info returns all the 
+      --If the keyword is info returns all the kwds
       if (string.lower(msg.text) == 'info') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/info.txt', ok_cb, false)
       end
+      -- If the keywrod is train returns all the trains live from Grand Canal Dock
       if (string.lower(msg.text) == 'train') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/IrishRail/formatted.txt', ok_cb, false)
       end
