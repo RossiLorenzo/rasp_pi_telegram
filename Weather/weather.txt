@@ -1,0 +1,19 @@
+Greater London: few clouds
+Temperature 10.1C
+Wind speed 24.12kmh
+Humidity 76%
+
+Dublin City: few clouds
+Temperature 6C
+Wind speed 33.48kmh
+Humidity 81%
+
+Warsaw: light intensity drizzle
+Temperature 2C
+Wind speed 12.96kmh
+Humidity 100%
+
+Pisa: fog
+Temperature 16.93C
+Wind speed 3.6kmh
+Humidity 93%

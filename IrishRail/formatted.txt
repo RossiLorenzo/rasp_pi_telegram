@@ -1,0 +1,15 @@
+Northbound:
+  Malahide: 10m
+  Howth: 13m
+  Drogheda: 14m
+  Howth: 21m
+  Maynooth: 24m
+  Howth: 28m
+  Malahide: 39m
+  Howth: 51m
+  Maynooth: 57m
+Southbound:
+  Bray: 7m
+  Greystones: 26m
+  Bray: 37m
+  Greystones: 52m

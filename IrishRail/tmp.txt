@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E822 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>16:30</Origintime>
+    <Destinationtime>17:49</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Blackrock</Lastlocation>
+    <Duein>10</Duein>
+    <Late>6</Late>
+    <Exparrival>17:19</Exparrival>
+    <Expdepart>17:20</Expdepart>
+    <Scharrival>17:14</Scharrival>
+    <Schdepart>17:14</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E942 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Dun Laoghaire</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>17:03</Origintime>
+    <Destinationtime>17:52</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Salthill</Lastlocation>
+    <Duein>13</Duein>
+    <Late>3</Late>
+    <Exparrival>17:22</Exparrival>
+    <Expdepart>17:23</Expdepart>
+    <Scharrival>17:19</Scharrival>
+    <Schdepart>17:20</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>D815 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Drogheda</Destination>
+    <Origintime>16:50</Origintime>
+    <Destinationtime>18:33</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Dun Laoghaire</Lastlocation>
+    <Duein>14</Duein>
+    <Late>-1</Late>
+    <Exparrival>17:23</Exparrival>
+    <Expdepart>17:24</Expdepart>
+    <Scharrival>17:24</Scharrival>
+    <Schdepart>17:25</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E941 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>16:55</Origintime>
+    <Destinationtime>18:03</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Glenageary</Lastlocation>
+    <Duein>21</Duein>
+    <Late>0</Late>
+    <Exparrival>17:30</Exparrival>
+    <Expdepart>17:31</Expdepart>
+    <Scharrival>17:30</Scharrival>
+    <Schdepart>17:31</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>D923 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Maynooth</Destination>
+    <Origintime>17:05</Origintime>
+    <Destinationtime>18:24</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Shankill</Lastlocation>
+    <Duein>24</Duein>
+    <Late>0</Late>
+    <Exparrival>17:34</Exparrival>
+    <Expdepart>17:34</Expdepart>
+    <Scharrival>17:34</Scharrival>
+    <Schdepart>17:34</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E926 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Dun Laoghaire</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>17:22</Origintime>
+    <Destinationtime>18:12</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>28</Duein>
+    <Late>0</Late>
+    <Exparrival>17:38</Exparrival>
+    <Expdepart>17:38</Expdepart>
+    <Scharrival>17:38</Scharrival>
+    <Schdepart>17:38</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E823 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>17:00</Origintime>
+    <Destinationtime>18:20</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Greystones</Lastlocation>
+    <Duein>39</Duein>
+    <Late>3</Late>
+    <Exparrival>17:48</Exparrival>
+    <Expdepart>17:49</Expdepart>
+    <Scharrival>17:45</Scharrival>
+    <Schdepart>17:46</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E927 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>17:25</Origintime>
+    <Destinationtime>18:33</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>51</Duein>
+    <Late>0</Late>
+    <Exparrival>18:00</Exparrival>
+    <Expdepart>18:01</Expdepart>
+    <Scharrival>18:00</Scharrival>
+    <Schdepart>18:01</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>D926 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Maynooth</Destination>
+    <Origintime>17:35</Origintime>
+    <Destinationtime>19:00</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>57</Duein>
+    <Late>0</Late>
+    <Exparrival>18:06</Exparrival>
+    <Expdepart>18:07</Expdepart>
+    <Scharrival>18:06</Scharrival>
+    <Schdepart>18:07</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E222 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>16:45</Origintime>
+    <Destinationtime>17:54</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Dublin Connolly</Lastlocation>
+    <Duein>7</Duein>
+    <Late>0</Late>
+    <Exparrival>17:16</Exparrival>
+    <Expdepart>17:17</Expdepart>
+    <Scharrival>17:16</Scharrival>
+    <Schdepart>17:17</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E122 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Greystones</Destination>
+    <Origintime>17:00</Origintime>
+    <Destinationtime>18:20</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Portmarnock</Lastlocation>
+    <Duein>26</Duein>
+    <Late>4</Late>
+    <Exparrival>17:36</Exparrival>
+    <Expdepart>17:36</Expdepart>
+    <Scharrival>17:31</Scharrival>
+    <Schdepart>17:32</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E223 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>17:15</Origintime>
+    <Destinationtime>18:24</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>37</Duein>
+    <Late>0</Late>
+    <Exparrival>17:46</Exparrival>
+    <Expdepart>17:47</Expdepart>
+    <Scharrival>17:46</Scharrival>
+    <Schdepart>17:47</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2015-12-08T17:10:02.493</Servertime>
+    <Traincode>E123 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>17:10:02</Querytime>
+    <Traindate>08 Dec 2015</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Greystones</Destination>
+    <Origintime>17:30</Origintime>
+    <Destinationtime>18:50</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>52</Duein>
+    <Late>0</Late>
+    <Exparrival>18:01</Exparrival>
+    <Expdepart>18:02</Expdepart>
+    <Scharrival>18:01</Scharrival>
+    <Schdepart>18:02</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData>

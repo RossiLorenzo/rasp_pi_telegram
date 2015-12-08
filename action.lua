@@ -21,7 +21,15 @@ function on_msg_receive (msg)
           while timestamp > friday do
             friday = friday + (60 * 60 * 24 * 7 * 100)
           end
-         send_msg (msg.from.print_name, print(friday - timestamp), ok_cb, false)
+	  secs = friday - timestamp
+	  mins = secs / 60
+	  hours = mins / 60
+	  days = math.floor(hours / 24)
+	  hours = math.floor(hours - 24 * days)
+	  mins = math.floor(mins - 24 * 60 * days - 60 * hours)
+	  secs = math.floor(secs - 24 * 60 * 60 * days - 60 * 60 * hours - 60 * mins)
+	  mymsg = 'Come one only: ' .. days .. ' days, ' .. hours .. ' hours, ' .. mins .. ' mins, ' .. secs .. ' secs'
+          send_msg (msg.from.print_name, mymsg, ok_cb, false)
       end
 
   end
