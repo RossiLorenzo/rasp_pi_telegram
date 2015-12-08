@@ -1,2 +1,4 @@
-info: List all the kwds
+info: List all the keywords
 train: Live trains from Grand Canal Dock
+weather: Weather info for Dublin, London, Warsaw and Pisa
+friday: Time to friday

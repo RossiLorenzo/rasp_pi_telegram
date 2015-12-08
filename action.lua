@@ -10,10 +10,20 @@ function on_msg_receive (msg)
       if (string.lower(msg.text) == 'train') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/IrishRail/formatted.txt', ok_cb, false)
       end
-      --If the keyword is weather returns teh live weather for Londond, Dublin, Warsaw and Pisa
+      --If the keyword is weather returns the live weather for Londond, Dublin, Warsaw and Pisa
       if (string.lower(msg.text) == 'weather') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/Weather/weather.txt', ok_cb, false)
       end
+      --If the keyword is friday returns the time to next friday 6pm
+      if (string.lower(msg.text) == 'friday') then
+          timestamp = os.time()
+          friday = 1389376800
+          while timestamp > friday do
+            friday = friday + (60 * 60 * 24 * 7 * 100)
+          end
+         send_msg (msg.from.print_name, print(friday - timestamp), ok_cb, false)
+      end
+
   end
    
   function on_our_id (id)
