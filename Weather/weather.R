@@ -24,7 +24,7 @@ all_results = do.call(rbind, lapply(all_results, function(i){
 if(nrow(all_results) == 0){
 cat('No data available', file = '/home/pi/Lorenzo/Telegram/Weather/weather.txt')
 }else{
-x = paste0(all_results$Name, ":\n  ", all_results$Weather, " - Temperature ", all_results$Temperature, " - Wind speed ", all_results$Wind, " - Humidity ", all_results$Humidity, collapse = "\n")
+x = paste0(all_results$Name, ": ", all_results$Weather, "\nTemperature ", all_results$Temperature, "\nWind speed ", all_results$Wind, "\nHumidity ", all_results$Humidity, collapse = "\n\n")
 cat(x, file = "/home/pi/Lorenzo/Telegram/Weather/weather.txt")
 }
 
