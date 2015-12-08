@@ -6,9 +6,13 @@ function on_msg_receive (msg)
       if (string.lower(msg.text) == 'info') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/info.txt', ok_cb, false)
       end
-      -- If the keywrod is train returns all the trains live from Grand Canal Dock
+      --If the keyword is train returns all the trains live from Grand Canal Dock
       if (string.lower(msg.text) == 'train') then
          send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/IrishRail/formatted.txt', ok_cb, false)
+      end
+      --If the keyword is weather returns teh live weather for Londond, Dublin, Warsaw and Pisa
+      if (string.lower(msg.text) == 'weather') then
+         send_text (msg.from.print_name, '/home/pi/Lorenzo/Telegram/Weather/weather.txt', ok_cb, false)
       end
   end
    
