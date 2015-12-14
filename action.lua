@@ -19,7 +19,7 @@ function on_msg_receive (msg)
           timestamp = os.time()
           friday = 1389376800
           while timestamp > friday do
-            friday = friday + (60 * 60 * 24 * 7 * 100)
+            friday = friday + (60 * 60 * 24 * 7)
           end
 	  secs = friday - timestamp
 	  mins = secs / 60
