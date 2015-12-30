@@ -16,20 +16,27 @@ function on_msg_receive (msg)
       end
       --If the keyword is friday returns the time to next friday 6pm
       if (string.lower(msg.text) == 'friday') then
-          timestamp = os.time()
-          friday = 1389376800
-          while timestamp > friday do
-            friday = friday + (60 * 60 * 24 * 7)
-          end
-	  secs = friday - timestamp
-	  mins = secs / 60
-	  hours = mins / 60
-	  days = math.floor(hours / 24)
-	  hours = math.floor(hours - 24 * days)
-	  mins = math.floor(mins - 24 * 60 * days - 60 * hours)
-	  secs = math.floor(secs - 24 * 60 * 60 * days - 60 * 60 * hours - 60 * mins)
-	  mymsg = 'Come one only: ' .. days .. ' days, ' .. hours .. ' hours, ' .. mins .. ' mins, ' .. secs .. ' secs'
-          send_msg (msg.from.print_name, mymsg, ok_cb, false)
+        timestamp = os.time()
+        friday = 1389376800
+        while timestamp > friday do
+          friday = friday + (60 * 60 * 24 * 7)
+        end
+	secs = friday - timestamp
+	mins = secs / 60
+	hours = mins / 60
+	days = math.floor(hours / 24)
+	hours = math.floor(hours - 24 * days)
+	mins = math.floor(mins - 24 * 60 * days - 60 * hours)
+	secs = math.floor(secs - 24 * 60 * 60 * days - 60 * 60 * hours - 60 * mins)
+	mymsg = 'Come one only: ' .. days .. ' days, ' .. hours .. ' hours, ' .. mins .. ' mins, ' .. secs .. ' secs'
+        send_msg (msg.from.print_name, mymsg, ok_cb, false)
+      end
+      --If the keyword is unhappy send my gf some nice stuff
+      if (string.lower(msg.text) == 'unhappy') then
+      	a = {'ciao pupa', 'mish you', 'polischiacchia', 'buzi', 'prettyiocia', 'moja kotek', 'hi sexy', 'miciona', 'ola ola senorita', 'i like you'}
+	math.randomseed( os.time() )
+	mymsg = a[math.random(#a)]
+	send_msg (msg.from.print_name, mymsg, ok_cb, false)
       end
 
   end
